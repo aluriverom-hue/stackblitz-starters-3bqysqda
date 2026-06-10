@@ -172,5 +172,22 @@ h1 {
 }
 
 #estadosunidos img{
-  width: 200px;
+  width: 150px;
+}
+#canada,#canada tr,#canada td, #canada th{
+  border: solid plum 3px;
+  border-collapse: collapse;
+}
+
+#canada img{
+  width: 150px;
+}
+
+#mexico,#mexico tr,#mexico td, #mexico th{
+  border: solid plum 3px;
+  border-collapse: collapse;
+}
+
+#mexico img{
+  width: 150px;
 }
