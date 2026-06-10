@@ -60,6 +60,9 @@ nav a[aria-current='page'] {
 }
 /*fin nav*/
 /*inicio main*/
+table, td, th{
+  background-color: 8px solid red;
+}
 
 section{
   width: 1000px;
@@ -73,10 +76,10 @@ section{
   justify-content: center;
 }
 section div{
-  width: 33%;
-  height: 350px;
+  width: 300px;
+  height: 170px;
   background-color: yellow;
-  margin-left: 2px;
+  margin-left: 5px;
 }
 #intro{
   background-image: url(https://i.pinimg.com/736x/27/13/79/271379cbbef58f4fc6a9f10e45e72d5f.jpg);
@@ -84,17 +87,17 @@ section div{
 }
 
 #eeuu{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg);
+  background-image: url(../img/eeuu.png);
   background-size: cover;
 }
 #mx{
-  background-image: url(https://cdn0.uncomo.com/es/posts/6/1/8/significado_de_la_bandera_y_el_escudo_de_mexico_44816_orig.jpg);
+  background-image: url(../img/mexico.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
 }
 #can{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTik-d2aSFyqwfsISoTDZbEH47nPyDINOfL0w&s);
+  background-image: url(../img/canada.png);
   background-size: cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -153,3 +156,21 @@ h1 {
   font-size: 1.5rem;
 }
 
+.multimedia{
+  width: 800px;
+  background-color: plum;
+}
+.multimedia video{
+  width: 600px;
+}
+
+/*estadios*/
+
+#estadosunidos,#estadosunidos tr,#estadosunidos td, #estadosunidos th{
+  border: solid plum 3px;
+  border-collapse: collapse;
+}
+
+#estadosunidos img{
+  width: 200px;
+}
