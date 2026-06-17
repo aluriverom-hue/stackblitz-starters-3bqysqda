@@ -155,6 +155,27 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+/*campeones******/
+
+/***** /* Contenedor principal: Divide el diseño en dos columnas (Continente y Paises)*/
+.campeones{
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* 25% para continente, 75% para países*/
+  border: 2px solid black;
+  width: 100%;
+}
+/*Columna Izquierda: Continente ocupará todo el alto disponible automáticamente*/
+.continente{
+  border-right: 2px solid black;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* Columna Derecha: Se covierte en otro Grid para organizar el contenido interno*/
+.paises {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*Dividido en 2 columnas para las fotos*/
+}
 
 .multimedia{
   width: 800px;
