@@ -158,7 +158,7 @@ h1 {
 /*campeones******/
 
 /***** /* Contenedor principal: Divide el diseño en dos columnas (Continente y Paises)*/
-.campeones{
+.Campeones{
   display: grid;
   grid-template-columns: 1fr 3fr; /* 25% para continente, 75% para países*/
   border: 2px solid black;
@@ -176,7 +176,31 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr; /*Dividido en 2 columnas para las fotos*/
 }
+/* El título del País ocupa las dos columnas*/
+.pais{
+  grid-column: span 2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 2px solid black;
+}
+/* Las fotos se acomodan una al lado de la otra automáticamente (50% cada una) */
+.foto{
+  min-height: 120px; /*Espacio para la imagen*/
+  padding: 35px 10px 10px 10px;
+  font-size: 11px;
+  border-bottom: 2px solid black;
+}
+.foto:nth-of-type(odd){
+  border-right: 2px solid black;
+}
 
+.resenia{
+  grid-column: span 2;
+  padding: 10px;
+  min-height: 80px;
+  font-size: 11px;
+}
 .multimedia{
   width: 800px;
   background-color: plum;
