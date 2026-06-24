@@ -179,7 +179,7 @@ h1 {
 /* El título del País ocupa las dos columnas*/
 .pais{
   grid-column: span 2;
-  padding: 10px;
+  padding: 25px;
   font-weight: bold;
   font-size: 13px;
   border-bottom: 2px solid black;
