@@ -201,6 +201,12 @@ h1 {
   min-height: 80px;
   font-size: 11px;
 }
+.paises .foto img{
+  width: 100%;
+}
+.resenia p{
+  font-size: 16px;
+}
 .multimedia{
   width: 800px;
   background-color: plum;
